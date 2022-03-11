@@ -7,22 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81BC2E8FE7DC940A5F291A9B /* Pods_louderSoundApp2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFB18BB0A135B3AD11F8141 /* Pods_louderSoundApp2.framework */; };
+		ED13BB6D27DB75E500D5D74E /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED13BB6C27DB75E500D5D74E /* Montserrat-Black.ttf */; };
+		ED13BB6F27DB7D9C00D5D74E /* meter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13BB6E27DB7D9C00D5D74E /* meter.swift */; };
+		ED13BB7127DBB49200D5D74E /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13BB7027DBB49200D5D74E /* Articles.swift */; };
+		ED13BB7427DBD2E200D5D74E /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13BB7327DBD2E200D5D74E /* settings.swift */; };
 		ED293F0627DA0A64001DE16D /* louderSoundApp2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293F0527DA0A64001DE16D /* louderSoundApp2App.swift */; };
-		ED293F0827DA0A64001DE16D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293F0727DA0A64001DE16D /* ContentView.swift */; };
+		ED293F0827DA0A64001DE16D /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293F0727DA0A64001DE16D /* mainView.swift */; };
 		ED293F0A27DA0A66001DE16D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED293F0927DA0A66001DE16D /* Assets.xcassets */; };
-		ED293F0D27DA0A66001DE16D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED293F0C27DA0A66001DE16D /* Preview Assets.xcassets */; };
 		ED293F0F27DA0A66001DE16D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293F0E27DA0A66001DE16D /* Persistence.swift */; };
 		ED293F1227DA0A66001DE16D /* louderSoundApp2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED293F1027DA0A66001DE16D /* louderSoundApp2.xcdatamodeld */; };
+		ED293F1927DA151D001DE16D /* viewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293F1827DA151D001DE16D /* viewRouter.swift */; };
+		ED293F1B27DA1643001DE16D /* skProduct_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293F1A27DA1643001DE16D /* skProduct_extension.swift */; };
+		ED293F1D27DA170C001DE16D /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293F1C27DA170C001DE16D /* MotherView.swift */; };
+		ED293F1F27DA1911001DE16D /* onBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293F1E27DA1911001DE16D /* onBoarding.swift */; };
+		ED293F2227DA198E001DE16D /* basic utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293F2127DA198E001DE16D /* basic utils.swift */; };
+		EDA6CCF227DB3AEE0012329C /* tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6CCF127DB3AEE0012329C /* tabbar.swift */; };
+		EDA6CCF827DB445C0012329C /* audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6CCF727DB445C0012329C /* audio.swift */; };
+		EDA6CCFA27DB44A70012329C /* generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6CCF927DB44A70012329C /* generator.swift */; };
+		EDA6CCFC27DB72060012329C /* customFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6CCFB27DB72060012329C /* customFrequency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FFB18BB0A135B3AD11F8141 /* Pods_louderSoundApp2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_louderSoundApp2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CC70F572D58DB2996665AC /* Pods-louderSoundApp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-louderSoundApp2.debug.xcconfig"; path = "Target Support Files/Pods-louderSoundApp2/Pods-louderSoundApp2.debug.xcconfig"; sourceTree = "<group>"; };
+		ED13BB6B27DB74BA00D5D74E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ED13BB6C27DB75E500D5D74E /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		ED13BB6E27DB7D9C00D5D74E /* meter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meter.swift; sourceTree = "<group>"; };
+		ED13BB7027DBB49200D5D74E /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		ED13BB7327DBD2E200D5D74E /* settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settings.swift; sourceTree = "<group>"; };
 		ED293F0227DA0A64001DE16D /* louderSoundApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = louderSoundApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED293F0527DA0A64001DE16D /* louderSoundApp2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = louderSoundApp2App.swift; sourceTree = "<group>"; };
-		ED293F0727DA0A64001DE16D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED293F0727DA0A64001DE16D /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
 		ED293F0927DA0A66001DE16D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ED293F0C27DA0A66001DE16D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED293F0E27DA0A66001DE16D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		ED293F1127DA0A66001DE16D /* louderSoundApp2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = louderSoundApp2.xcdatamodel; sourceTree = "<group>"; };
+		ED293F1827DA151D001DE16D /* viewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewRouter.swift; sourceTree = "<group>"; };
+		ED293F1A27DA1643001DE16D /* skProduct_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skProduct_extension.swift; sourceTree = "<group>"; };
+		ED293F1C27DA170C001DE16D /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		ED293F1E27DA1911001DE16D /* onBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoarding.swift; sourceTree = "<group>"; };
+		ED293F2127DA198E001DE16D /* basic utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "basic utils.swift"; sourceTree = "<group>"; };
+		ED6F2AB527DA489D00F15D91 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		EDA6CCF127DB3AEE0012329C /* tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbar.swift; sourceTree = "<group>"; };
+		EDA6CCF727DB445C0012329C /* audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audio.swift; sourceTree = "<group>"; };
+		EDA6CCF927DB44A70012329C /* generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generator.swift; sourceTree = "<group>"; };
+		EDA6CCFB27DB72060012329C /* customFrequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customFrequency.swift; sourceTree = "<group>"; };
+		EFD4F6E6FBBCED34F95FB07D /* Pods-louderSoundApp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-louderSoundApp2.release.xcconfig"; path = "Target Support Files/Pods-louderSoundApp2/Pods-louderSoundApp2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +60,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BC2E8FE7DC940A5F291A9B /* Pods_louderSoundApp2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E8F3E80540E3616040DCA14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FFB18BB0A135B3AD11F8141 /* Pods_louderSoundApp2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8072F877E89D48622351C32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96CC70F572D58DB2996665AC /* Pods-louderSoundApp2.debug.xcconfig */,
+				EFD4F6E6FBBCED34F95FB07D /* Pods-louderSoundApp2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED13BB6927DB73CA00D5D74E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ED13BB6C27DB75E500D5D74E /* Montserrat-Black.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		ED13BB7227DBD2B500D5D74E /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				ED13BB7327DBD2E200D5D74E /* settings.swift */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
 		ED293EF927DA0A64001DE16D = {
 			isa = PBXGroup;
 			children = (
 				ED293F0427DA0A64001DE16D /* louderSoundApp2 */,
 				ED293F0327DA0A64001DE16D /* Products */,
+				D8072F877E89D48622351C32 /* Pods */,
+				4E8F3E80540E3616040DCA14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,22 +121,68 @@
 		ED293F0427DA0A64001DE16D /* louderSoundApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				ED13BB6B27DB74BA00D5D74E /* Info.plist */,
+				ED293F1C27DA170C001DE16D /* MotherView.swift */,
+				EDA6CCF327DB3DDE0012329C /* onboarding */,
+				EDA6CCF027DB3AD50012329C /* mainView */,
+				ED13BB7227DBD2B500D5D74E /* settings */,
+				ED293F2027DA1970001DE16D /* utils */,
+				EDA6CCF527DB44130012329C /* db */,
+				EDA6CCF627DB44460012329C /* audio */,
+				ED13BB6927DB73CA00D5D74E /* fonts */,
 				ED293F0527DA0A64001DE16D /* louderSoundApp2App.swift */,
-				ED293F0727DA0A64001DE16D /* ContentView.swift */,
+				ED293F1827DA151D001DE16D /* viewRouter.swift */,
 				ED293F0927DA0A66001DE16D /* Assets.xcassets */,
-				ED293F0E27DA0A66001DE16D /* Persistence.swift */,
-				ED293F1027DA0A66001DE16D /* louderSoundApp2.xcdatamodeld */,
-				ED293F0B27DA0A66001DE16D /* Preview Content */,
+				ED6F2AB527DA489D00F15D91 /* Configuration.storekit */,
 			);
 			path = louderSoundApp2;
 			sourceTree = "<group>";
 		};
-		ED293F0B27DA0A66001DE16D /* Preview Content */ = {
+		ED293F2027DA1970001DE16D /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				ED293F0C27DA0A66001DE16D /* Preview Assets.xcassets */,
+				ED293F1A27DA1643001DE16D /* skProduct_extension.swift */,
+				ED293F2127DA198E001DE16D /* basic utils.swift */,
 			);
-			path = "Preview Content";
+			path = utils;
+			sourceTree = "<group>";
+		};
+		EDA6CCF027DB3AD50012329C /* mainView */ = {
+			isa = PBXGroup;
+			children = (
+				ED293F0727DA0A64001DE16D /* mainView.swift */,
+				EDA6CCF127DB3AEE0012329C /* tabbar.swift */,
+				EDA6CCF927DB44A70012329C /* generator.swift */,
+				ED13BB6E27DB7D9C00D5D74E /* meter.swift */,
+				EDA6CCFB27DB72060012329C /* customFrequency.swift */,
+				ED13BB7027DBB49200D5D74E /* Articles.swift */,
+			);
+			path = mainView;
+			sourceTree = "<group>";
+		};
+		EDA6CCF327DB3DDE0012329C /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				ED293F1E27DA1911001DE16D /* onBoarding.swift */,
+			);
+			path = onboarding;
+			sourceTree = "<group>";
+		};
+		EDA6CCF527DB44130012329C /* db */ = {
+			isa = PBXGroup;
+			children = (
+				ED293F0E27DA0A66001DE16D /* Persistence.swift */,
+				ED293F1027DA0A66001DE16D /* louderSoundApp2.xcdatamodeld */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		EDA6CCF627DB44460012329C /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6CCF727DB445C0012329C /* audio.swift */,
+			);
+			path = audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED293F1527DA0A66001DE16D /* Build configuration list for PBXNativeTarget "louderSoundApp2" */;
 			buildPhases = (
+				06B523D84BE3A44CE6A88E52 /* [CP] Check Pods Manifest.lock */,
 				ED293EFE27DA0A64001DE16D /* Sources */,
 				ED293EFF27DA0A64001DE16D /* Frameworks */,
 				ED293F0027DA0A64001DE16D /* Resources */,
+				4F9692CE4CC66ECDB9D148A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,12 +245,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED293F0D27DA0A66001DE16D /* Preview Assets.xcassets in Resources */,
 				ED293F0A27DA0A66001DE16D /* Assets.xcassets in Resources */,
+				ED13BB6D27DB75E500D5D74E /* Montserrat-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06B523D84BE3A44CE6A88E52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-louderSoundApp2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F9692CE4CC66ECDB9D148A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-louderSoundApp2/Pods-louderSoundApp2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-louderSoundApp2/Pods-louderSoundApp2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-louderSoundApp2/Pods-louderSoundApp2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ED293EFE27DA0A64001DE16D /* Sources */ = {
@@ -144,9 +300,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED293F0F27DA0A66001DE16D /* Persistence.swift in Sources */,
-				ED293F0827DA0A64001DE16D /* ContentView.swift in Sources */,
+				ED13BB7127DBB49200D5D74E /* Articles.swift in Sources */,
+				EDA6CCFA27DB44A70012329C /* generator.swift in Sources */,
+				ED293F2227DA198E001DE16D /* basic utils.swift in Sources */,
+				ED293F1D27DA170C001DE16D /* MotherView.swift in Sources */,
+				ED293F1B27DA1643001DE16D /* skProduct_extension.swift in Sources */,
+				ED293F1927DA151D001DE16D /* viewRouter.swift in Sources */,
+				ED293F0827DA0A64001DE16D /* mainView.swift in Sources */,
 				ED293F0627DA0A64001DE16D /* louderSoundApp2App.swift in Sources */,
+				EDA6CCF827DB445C0012329C /* audio.swift in Sources */,
+				ED13BB7427DBD2E200D5D74E /* settings.swift in Sources */,
+				EDA6CCF227DB3AEE0012329C /* tabbar.swift in Sources */,
+				EDA6CCFC27DB72060012329C /* customFrequency.swift in Sources */,
+				ED293F1F27DA1911001DE16D /* onBoarding.swift in Sources */,
 				ED293F1227DA0A66001DE16D /* louderSoundApp2.xcdatamodeld in Sources */,
+				ED13BB6F27DB7D9C00D5D74E /* meter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,17 +439,21 @@
 		};
 		ED293F1627DA0A66001DE16D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96CC70F572D58DB2996665AC /* Pods-louderSoundApp2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"louderSoundApp2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = louderSoundApp2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ffff;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -289,27 +461,31 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = myCompany.louderSoundApp2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.louderapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ED293F1727DA0A66001DE16D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD4F6E6FBBCED34F95FB07D /* Pods-louderSoundApp2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"louderSoundApp2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = louderSoundApp2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ffff;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,11 +493,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = myCompany.louderSoundApp2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.louderapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
